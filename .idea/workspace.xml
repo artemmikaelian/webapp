@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e237cae-4b3c-4701-a4db-838f9f866260" name="Changes" comment="Refactoring">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slf4j.2022-10-30.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/slf4j.log" beforeDir="false" afterPath="$PROJECT_DIR$/slf4j.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/SpringApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/exception/IdNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/rest/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/rest/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/add_customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/add_customer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/edited_customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/edited_customer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/new_customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/new_customer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/search_by_fullname.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/search_by_fullname.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/search_by_id.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/search_by_id.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667130749597</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Refactoring">
+      <created>1667173522084</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667173522084</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
