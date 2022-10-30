@@ -4,32 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e237cae-4b3c-4701-a4db-838f9f866260" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/Service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/exception/IdNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/model/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/rest/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/add_customer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/bad_request.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/edited_customer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/main_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/new_customer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/not_found.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/search_by_fullname.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/search_by_id.html" afterDir="false" />
+    <list default="true" id="2e237cae-4b3c-4701-a4db-838f9f866260" name="Changes" comment="Added controllers and service layer">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/rest/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/rest/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/not_found.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/not_found.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +57,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Hp/java_basics/SpringBootWebDevelopment",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "last_opened_file_path": "C:/Users/Hp/java_basics/ExceptionsDebuggingAndTesting/homework_1/ConsoleCustomerList/checkstyle.xml",
     "settings.editor.selected.configurable": "com.haulmont.jpb.dbDrivers"
   }
 }]]></component>
@@ -115,7 +97,18 @@
       <option name="presentableId" value="Default" />
       <updated>1666813714417</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added controllers and service layer">
+      <created>1667130749597</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667130749597</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -127,5 +120,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added controllers and service layer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added controllers and service layer" />
   </component>
 </project>
