@@ -4,13 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e237cae-4b3c-4701-a4db-838f9f866260" name="Changes" comment="Added controllers and service layer">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+    <list default="true" id="2e237cae-4b3c-4701-a4db-838f9f866260" name="Changes" comment="Refactoring">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slf4j.2022-10-30.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slf4j.log" beforeDir="false" afterPath="$PROJECT_DIR$/slf4j.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/SpringApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/exception/IdNotFoundException.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/main/rest/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/rest/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/not_found.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/not_found.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/add_customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/add_customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/edited_customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/edited_customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/new_customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/new_customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/search_by_fullname.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/search_by_fullname.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/search_by_id.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/search_by_id.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,16 +63,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "last_opened_file_path": "C:/Users/Hp/java_basics/ExceptionsDebuggingAndTesting/homework_1/ConsoleCustomerList/checkstyle.xml",
-    "settings.editor.selected.configurable": "com.haulmont.jpb.dbDrivers"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hp/java_basics/ExceptionsDebuggingAndTesting/homework_1/ConsoleCustomerList/checkstyle.xml&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.haulmont.jpb.dbDrivers&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Hp\Java_движения\WebApp\WebApp" />
@@ -69,8 +80,8 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.Main" />
+    <configuration name="SpringApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.SpringApplication" />
       <module name="WebApp" />
       <extension name="coverage">
         <pattern>
@@ -84,7 +95,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SpringApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -123,6 +134,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added controllers and service layer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added controllers and service layer" />
+    <MESSAGE value="Refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
   </component>
 </project>

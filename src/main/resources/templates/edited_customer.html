@@ -5,11 +5,11 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 <body>
-<h1>Обновленная нформация о сотруднике с id = <h1 th:text="${customer.id}"></h1></h1>
-<p th:text="'surname: ' + ${customer.surname}" />
-<p th:text="'name: ' + ${customer.name}" />
-<p th:text="'patronymic: ' + ${customer.patronymic}" />
-<p th:text="'description: ' + ${customer.description}" />
+<h1 th:text="'Обновленная нформация о сотруднике с id = ' + ${customer.id}"></h1>
+<p th:text="'Фамилия: ' + ${customer.surname}" />
+<p th:text="'Имя: ' + ${customer.name}" />
+<p th:text="'Отчество: ' + ${customer.patronymic}" />
+<p th:text="'Описание: ' + ${customer.description}" />
 <a href="/">Вернуться на главную страницу</a>
 </body>
 </html>

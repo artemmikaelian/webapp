@@ -9,7 +9,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
-
 import javax.validation.Valid;
 import java.util.List;
 
@@ -38,7 +37,6 @@ public class CustomerController {
         if (result.hasErrors()) {
             return "add_customer";
         }
-
         LOGGER.info("Добавлен новый клиент.");
         customerService.save(customer);
         return "new_customer";
