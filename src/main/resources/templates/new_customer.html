@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Форма добавления сотрудника</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Результат</h1>
+<p th:text="'surname: ' + ${customer.surname}" />
+<p th:text="'name: ' + ${customer.name}" />
+<p th:text="'patronymic: ' + ${customer.patronymic}" />
+<p th:text="'description: ' + ${customer.description}" />
+<a href="/new">Добавить еще одного сотрудника</a>
+<a href="/">Вернуться на главную страницу</a>
+</body>
+</html>

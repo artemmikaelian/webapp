@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Customers</title>
+</head>
+<body>
+<h3><a href="/new">New Customer</a></h3>
+<span>Поиск по id:</span>
+<form th:method="get" th:action="@{/search_by_id}">
+    <input type="text" name="id" />
+    <input type="submit" value="Search" />
+</form>
+<span>Поиск по ФИО:</span>
+<form th:method="get" th:action="@{/search_by_fullname}">
+    <input type="text" name="surname" />
+    <input type="text" name="name" />
+    <input type="text" name="patronymic" />
+    <input type="submit" value="Search" />
+</form>
+<h1>Список сотрудников (<span th:text="${customersCount}"></span>)</h1>
+<br><br>
+<div>
+    <table border="1" cellpadding="5">
+        <tr>
+            <th>Id</th>
+            <th>Фамилия</th>
+            <th>Имя</th>
+            <th>Отчество</th>
+            <th>Описание</th>
+        </tr>
+        <div th:each="customer : ${customers}">
+            <tr>
+                <td th:text="${customer.id}"></td>
+                <td th:text="${customer.surname}"></td>
+                <td th:text="${customer.name}"></td>
+                <td th:text="${customer.patronymic}"></td>
+                <td th:text="${customer.description}"></td>
+                <td>
+                    <a th:href="@{/edit(id=${customer.id})}">Edit</a>
+                    <a th:href="@{/delete(id=${customer.id})}">Delete</a>
+                </td>
+            </tr>
+        </div>
+    </table>
+</div>
+</body>
+</html>

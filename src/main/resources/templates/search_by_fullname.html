@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Форма добавления сотрудника</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <th>Id</th>
+        <th>Фамилия</th>
+        <th>Имя</th>
+        <th>Отчество</th>
+        <th>Описание</th>
+    </tr>
+    <div th:each="customer : ${customers}">
+        <tr>
+            <td th:text="${customer.id}"></td>
+            <td th:text="${customer.surname}"></td>
+            <td th:text="${customer.name}"></td>
+            <td th:text="${customer.patronymic}"></td>
+            <td th:text="${customer.description}"></td>
+        </tr>
+    </div>
+</table>
+</body>
+</html>
